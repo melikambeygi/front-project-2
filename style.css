@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "sofia";
+    src: url(/font/Sofia\ Pro\ Black\ Az.otf);
+}
+
+#back {
+    background-image: url(img/Rectangle\ 4582.png);
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+#logo {
+    width: 97px;
+    height: 62px;
+    margin-top: 24px;
+
+}
+
+#hamberger {
+    width: 36px;
+    height: 27px;
+    margin-top: 50px;
+    margin-left: 368px;
+
+    top: 20px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    height: 24px;
+    width: 660px;
+    margin-top: 47px;
+    margin-left: 280px;
+
+}
+
+/* #text{
+    width: 380px;
+    height: 195px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 64.8px;
+    font-family: "sofia";
+    margin-bottom: 0px;
+} */
+#first {
+    display: flex;
+    flex-direction: column;
+}
+
+#search {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 24px;
+    border: 0.5px solid;
+    border-color: black;
+    border-radius: 100px;
+    width: 471px;
+    height: 54px;
+
+}
+
+#magnifier {
+    width: 18.71px;
+    height: 18.71px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 18px;
+}
+
+#searchBox {
+    width: 120px;
+    height: 24px;
+    border: 0px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#btnmgn {
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    color: Style;
+    border: 0px;
+    padding: 0px;
+    margin-left: 240px;
+    margin-top: 6px;
+}
+
+.button {
+    border-radius: 100px;
+    background-color: rgba(245, 71, 72, 1);
+    border: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: "sofia";
+    font-weight: 400;
+
+}
+
+#btn {
+    height: 45px;
+    width: 162px;
+    margin-top: 24px;
+    margin-left: 50px;
+}
+
+#btn1 {
+    margin-top: 30px;
+    margin-left: 24px;
+    height: 45px;
+    width: 162px;
+    display: block;
+}
+
+#food {
+    margin: 59px 18px 50px 59px;
+}
+
+.foods {
+    height: 516px;
+    width: 310px;
+    margin-top: 59px;
+    margin-left: 18px;
+}
+
+#offers {}
+
+#today {
+    padding-top: 101px;
+    padding-left: 37px;
+    display: block;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 120px;
+    padding: 0px;
+    margin-left: 24px;
+}
+
+#Lorem {
+    margin: 24px;
+    display: block;
+    text-align: center;
+}
+
+@media (min-width : 1000px) {
+    #hamberger {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+    #menu {
+        display: none;
+    }
+
+    #btn {
+        display: none;
+    }
+
+    #girl_photo {
+        display: none;
+    }
+
+
+
+}
